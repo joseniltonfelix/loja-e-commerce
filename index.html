@@ -12,8 +12,8 @@
     <title>ecommerce</title>
 </head>
     <header>
-        <div class="navbar">
-            <div class="header-inner-content-">
+        <div class="navbar show-menu">
+            <div class="header-inner-content">
                 <h1 class="logo">SUA<span>LOGO</span></h1>
             
                 <nav>  
@@ -33,10 +33,10 @@
         </div>
     </header>
 
-<body>
-    <div class="body-inner-content">
-        <div class="body-bottom-side">
-            <div class="body-bottom-side-left">
+<header>
+    <div class="header-inner-content">
+        <div class="header-bottom-side">
+            <div class="header-bottom-side-left">
                 <h2>Dê um novo estilo ao seu trabalho!</h2>
                 <p>
                     Sucesso nem sempre tem a ver com grandeza!
@@ -46,12 +46,33 @@
                 </p>
                 <button>Ver Agora &#8594;</button>
             </div>
-            <div class="body-bottom-side-right">
+            <div class="header-bottom-side-right">
                 <img src="./imgs/gaming-msi-header.png" alt="">
 
             </div>
         </div>
     </div>
+</header>
 
-</body>
+<!-- main -->
+<main>
+    <div class="gray-background">
+        <div class="page-inner-content">
+            <div class="cols cols-3">
+                <img src="/imgs/products/product-1.png" alt="">
+                <img src="/imgs/products/product-2.png" alt="">
+                <img src="/imgs/products/product-3.png" alt="">
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    const navbar = document.querySelector(".navbar");
+    const menuButton = document.querySelector(".menu-button")
+
+    menuButton.addEventListener('click', () => {
+        navbar.classList.toggle("show-menu");
+    });
+</script>
 </html>
