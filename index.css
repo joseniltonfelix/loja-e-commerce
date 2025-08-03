@@ -15,6 +15,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 
+
 }
 
 /*header*/
@@ -81,15 +82,13 @@ nav ul li :hover {
 }
 
 .header-bottom-side {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-image: radial-gradient(#fff, #c7c7c7);
+    padding: 1rem 5rem;
+    
 }
 .header-bottom-side-left {
     height: 100%;
@@ -173,6 +172,10 @@ nav ul li :hover {
 /* header */
 
 /* main content  */
+
+main{
+    background-color: #ebebeb;
+}
     .gray-background{
         background-color: #2c2c2c;
 }
@@ -192,3 +195,125 @@ nav ul li :hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
+
+.cols-3 img {
+    max-width: 100%;
+    cursor: pointer;
+
+}
+
+.cols-3 img :hover{
+    transform: translateY(-6);
+}
+
+.cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;   
+}
+
+.cols>div{
+    cursor: pointer;
+    transition: all0.2s;
+}
+
+.cols>div:hover{
+    transform: translateY(-6px);
+    
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;  
+}
+
+.subtitle-underline {
+    width: 100px;
+    height: 5px;
+    background: #0084ff;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+
+.product {
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.product-name{
+    font-weight: 600;
+    margin-top: 0.4rem;
+
+}
+.rate{
+    color: #0084ff;
+    font-size: 1.3rem;
+
+}
+.product-price span{
+    font-weight: 600;
+    
+}
+.cols-5{
+    
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.cols-5 img {
+    max-width: 100%;
+    cursor: pointer;
+
+}
+
+.cols-5 img :hover{
+    transform: translateY(-6);
+}
+
+.section-title2{
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.8rem;  
+}
+
+.subtitle-underline2{
+    width: 100px;
+    height: 5px;
+    background: #0084ff;
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+
+.product2 {
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.product-name2 {
+    font-weight: 600;
+    margin-top: 0.4rem;
+
+}
+.rate2{
+    color: #0084ff;
+    font-size: 1.3rem;
+ 
+}
+.product-price2 span {
+    font-weight: 600;
+
+}
+.exclusive-container {
+    color: #fff;
+    flex-direction: row-reverse;
+    padding: 5rem 1rem;
+
+}
+
+.exclusive-container img {
+    max-width: 500px;
+ 
+}
+
