@@ -230,7 +230,7 @@ main {
 
 .cols>div {
     cursor: pointer;
-    transition: all0.2s;
+    transition: all 0.2s;
 }
 
 .cols>div:hover {
@@ -270,6 +270,13 @@ main {
     font-size: 1.3rem;
 
 }
+.discount{
+    display: flex;
+    gap: 0.4rem;
+}
+.discount p {
+    text-decoration: line-through;
+}
 
 .product-price span {
     font-weight: 100;
@@ -278,7 +285,14 @@ main {
 }
 .product-price{
     font-weight: bold;
+    color: rgb(89, 184, 30);
+    font-size: 18px !important;
+    margin: 0.3rem 0
 }
+.card{
+    font-size: small;
+}
+
 
 .cols-5 {
 
