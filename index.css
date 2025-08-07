@@ -226,11 +226,13 @@ main {
 .cols-4 {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    
 }
 
 .cols>div {
     cursor: pointer;
     transition: all 0.2s;
+    
 }
 
 .cols>div:hover {
@@ -257,12 +259,21 @@ main {
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
+    box-shadow: 0.1rem 0.1rem 0.6rem;
+    border-radius: 0.1rem;
+}
+
+.product p{
+    margin-left: 1rem
 }
 
 .product-name {
     font-weight: 600;
     margin-top: 0.4rem;
 
+}
+.card{
+    margin-bottom: 1rem;
 }
 
 .rate {
