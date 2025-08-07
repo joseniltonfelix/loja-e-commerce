@@ -65,7 +65,8 @@ nav ul :hover {
     align-items: center;
     width: 250px;
     height: 40px;
-    margin: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .search-content input {
