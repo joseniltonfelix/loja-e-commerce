@@ -274,6 +274,7 @@ main {
 }
 .card{
     margin-bottom: 1rem;
+    font-size: small;
 }
 
 .rate {
@@ -298,12 +299,8 @@ main {
     font-weight: bold;
     color: rgb(89, 184, 30);
     font-size: 18px !important;
-    /* margin: 0.3rem 0 */
+    margin: 0.3rem 0
 }
-.card{
-    font-size: small;
-}
-
 
 .cols-5 {
 
@@ -352,7 +349,7 @@ main {
     }
 
     .product-name, .product-price, .rate{
-        max-height: 1rem;
+
         overflow: hidden;
         font-size: 0.8rem
     }
