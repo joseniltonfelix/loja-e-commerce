@@ -222,28 +222,100 @@ nav ul li :hover {
 
 /* main content  */
 
-main {
-    background-color: #ebebeb;
-}
+
 
 .gray-background {
     background-color: #2c2c2c;
 }
 
+
 .page-inner-content {
     max-width: 1280px;
     margin: 0 auto;
+}
+.titles {
+    background-color: #fff;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+
+}
+.section-title1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #000000;
 }
 
 .cols {
     display: grid;
     justify-content: space-evenly;
     padding: 4rem 1rem;
+
+}
+.prices-and-name {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    width:25rem;
+}
+.notebook-dell1,
+.notebook-dell2,
+.notebook-asus {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    max-width: 370px;
+    align-items: center;
+}
+
+.discount-notebook{
+    color: #887e7e;
+    text-decoration: line-through;
+    font-weight: 100;
+
+}
+.price-notebook{
+    color: rgb(255, 157, 0);
+}
+.notebook-asus h2 {
+    color: #8f8f8f;
+}
+.discount-notebook2{
+    color: #887e7e;
+    text-decoration: line-through;
+    font-weight: 100;
+
+}
+.price-notebook2{
+    color: rgb(255, 157, 0);
+}
+.notebook-dell1 h2 {
+    color: #8f8f8f;
+}
+
+.discount-notebook3{
+    color: #887e7e;
+    text-decoration: line-through;
+    font-weight: 100;
+
+}
+.price-notebook3{
+    color: rgb(255, 157, 0);
+}
+.notebook-dell2 h2 {
+    color: #8f8f8f;
 }
 
 .cols-3 {
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.cols-3 img {
+    box-shadow: 10px 5px 10px #000000;
+    border: 1px solid black;
 }
 
 
